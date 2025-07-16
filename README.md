@@ -56,14 +56,14 @@ el proyecto es Mysql
 
 #### Inicio de la APlicacion
 
-##Back-End
+## Back-End
 /src/main/resources/application.properties
 Adicione una linea al final, como el ejemplo:
 server.port=8085
 
 <img width="342" height="290" alt="image" src="https://github.com/user-attachments/assets/12198e6c-cd6a-4469-83f7-a75734ff1bd4" />
 
-##Fron-Ent
+## Fron-Ent
 Para utilizar la aplicación usar la siguiente url:
 http://localhost:3000/
 <img width="1422" height="875" alt="image" src="https://github.com/user-attachments/assets/515286ea-3f29-4be7-b7fe-2496940269d2" />
