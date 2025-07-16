@@ -1,0 +1,56 @@
+#nav {
+    background-color: var(--color3);
+    border: 5px solid;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0.1);
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.icon-large  {
+    font-size: 1.5rem; /* Ajusta el tamaño del ícono */
+    transition: transform 0.3s ease; /* Añade una transición suave */
+    color: var(--color-blanco); /* Color del ícono */
+    margin: 0 10px; /* Espacio entre íconos */
+}
+/* Cambia el color del ícono al pasar el mouse */
+.icon-large:hover {
+    transform: scale(1.2); /* Agranda el ícono al pasar el mouse */
+    color: var(--color5); /* Cambia el color al pasar el mouse */
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 180px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-right: 60px;
+    background-color: var(--color3);
+    border: none;
+    outline: none;
+
+}
+.navbar-toggler {
+    border: none; /* Elimina el borde */
+    outline: none; /* Elimina el contorno al hacer clic */
+}
+.navbar-toggler:focus {
+    outline: none; /* Asegura que no haya contorno al enfocarlo */
+    box-shadow: none; /* Elimina cualquier sombra al enfocarlo */
+}
+
+.search-npt::placeholder{
+    color: var(--color-blanco);
+    opacity: 0.7; /* Opacidad del placeholder */
+    font-weight: 400; /* Peso de fuente del placeholder */
+}

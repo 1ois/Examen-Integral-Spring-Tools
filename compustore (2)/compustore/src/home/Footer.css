@@ -1,0 +1,32 @@
+.footer {
+  border-top: 2px solid #2c3e50;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  animation: fadeInFooter 0.5s ease-in-out;
+}
+
+.footer h5 {
+  font-weight: bold;
+  color: #f8f9fa;
+}
+
+.footer .social-icons i {
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer .social-icons i:hover {
+  color: #0d6efd;
+}
+
+@keyframes fadeInFooter {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,72 @@
+/* Fondo atenuado */
+.auth-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6); /* Oscurece el fondo */
+  backdrop-filter: blur(4px);     /* Desenfoque */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Asegura que esté sobre todo */
+}
+
+/* Contenedor del modal */
+.auth-modal-content {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  position: relative;
+  animation: fadeInUp 0.4s ease;
+}
+
+/* Botón de cierre (X) */
+.auth-modal-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  color: #555;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Animación de entrada */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Inputs y botón */
+.auth-modal-content input {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+.auth-modal-content button[type='submit'] {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.auth-modal-content button[type='submit']:hover {
+  background-color: #1d4ed8;
+}

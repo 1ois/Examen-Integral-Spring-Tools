@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root{
+  --color1: #91C2AE;
+  --color2: #547792;
+  --color3: #94B4C1;
+  --color4: #ECEFCA;
+  --color5 :  #31795c;;
+  --color6: #F08F83;
+  --color7 : #8cc0d4;
+  --color8: #333;
+    outline: none;
+  --color-blanco: #FFFFFF;
+  --color-negro: #000000;
+  --color-gris-claro:#CCCCCC;
+  --color-gris-oscuro:#333333;
+}
+
+body{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+} 
+
+h1{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 1000;
+}
+p{
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+}
+
+#root{
+  #root {
+  min-height: 2500px; /* Establece un alto mínimo de 2500 píxeles */
+  width: 100%; /* Asegura que ocupe todo el ancho */
+  display: flex; /* Opcional: para centrar contenido */
+  flex-direction: column; /* Opcional: organiza el contenido en columnas */
+  justify-content: center; /* Opcional: centra verticalmente el contenido */
+  align-items: center; /* Opcional: centra horizontalmente el contenido */
+  background-color: #f8f9fa; /* Opcional: color de fondo */
+}
+}
