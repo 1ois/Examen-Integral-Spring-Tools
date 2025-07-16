@@ -29,11 +29,10 @@ Por ello, se requiere construir una **plataforma web que gestione la publicació
 
 - **Backend**: Java con Spring Boot
 - **Frontend**: React JS
-- **Base de datos**: `Poner aquí` (Ej: MySQL / PostgreSQL / H2)
+- **Base de datos**: MySQL
 - **ORM**: Hibernate / JPA
 - **API REST**: Servicios RESTful
-- **Seguridad**: Spring Security con JWT (`opcional`)
-- **Estilos frontend**: `Poner aquí` (Tailwind, Bootstrap, CSS Modules, etc.)
+
 
 ---
 
@@ -44,8 +43,7 @@ Por ello, se requiere construir una **plataforma web que gestione la publicació
 #### Requisitos previos:
 
 - Java 17+
-- Maven 3.x
-- IDE recomendado: Eclipse / IntelliJ IDEA
+- IDE recomendado: Spring-Tools
 
 #### Base de Datos Relacional
 Se utilizo la base de datos relacional embebida que ofrece la tecnologia Spring-boot con 
